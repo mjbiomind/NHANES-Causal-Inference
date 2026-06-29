@@ -1,0 +1,15 @@
+## DATA_DICTIONARY.md## NHANES Cohort Metadata & Variable Mapping Schema
+Project: Disentangling SDoH & Inflammatory Biomarkers
+Data Privacy Status: Fully De-identified / Synthetic Replication Framework
+
+| Variable Name | Database Target | Data Type | Measurement Unit / Codification | Clinical / Operational Definition |
+|---|---|---|---|---|
+| SEQN | Core Registry | Integer | Continuous Sequence | Respondent Sequence Number: Unique participant identifier code assigned by NHANES. |
+| Age | Demographics | Integer | Years (18 to 75) | Participant Chronological Age: Baseline demographic covariate used for confounding adjustment. |
+| IncomePovertyRatio | Socioeconomic | Float | Ratio Scale (0.50 to 5.00) | Poverty Guidelines Ratio: Family income divided by the federal poverty threshold. Values < 1.00 represent living below the poverty line. |
+| HispanicCohort | Demographics | Binary | 0 = Non-Hispanic White Reference Group 1 = Hispanic / Latino Subpopulation | Target Demographic Indicator: Subpopulation assignment variable used to track mental health disparities. |
+| EnvironmentalStress | Housing/Environment | Binary | 0 = Unexposed / Secure Housing 1 = Chronically Exposed to Matrix Stressor | Primary Exposure Vector (T): Chronic environmental or housing instability proxy variable. |
+| CRP | Lab Biomarkers | Float | mg/L (Milligrams per Liter) | C-Reactive Protein: Serum inflammatory biomarker measured via high-sensitivity latex-enhanced immunonephelometry assays. |
+| LogCRP | Engineered Feature | Float | Natural Logarithm: $\ln(\text{CRP})$ | Log-Transformed CRP (Y): Mathematically transformed outcome feature used to stabilize variance and normalize biological data skewness. |
+| PropensityScore | Statistical Vector | Float | Probability Range (0.00 to 1.00) | Conditional Probability e(W): The predicted probability of stress exposure calculated via the baseline logistic regression model. |
+| IPTW | Statistical Vector | Float | Inverse Weight Scale (≥ 1.00) | Inverse Probability Weight: The calculated structural weight applied to the observation during Weighted Least Squares estimation. |
