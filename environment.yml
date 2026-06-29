@@ -1,0 +1,12 @@
+name: nhanes-causal-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas=2.1
+  - numpy=1.26
+  - matplotlib=3.8
+  - seaborn=0.13
+  - statsmodels=0.14
+  - pip
