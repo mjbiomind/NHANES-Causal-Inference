@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directories and local storages
+*.csv
+*.xlsx
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
