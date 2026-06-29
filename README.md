@@ -1,7 +1,6 @@
 # Causal Inference Pipeline: Disentangling SDoH & Inflammatory Biomarkers
 **Project Track:** Computational Psychiatry & Health Disparities  
 **Principal Analyst:** Mary Jacobs ([MJBIOMIND](https://linkedin.com))  
-**Academic Affiliation:** Stanford University (Medical Statistics Framework)  
 
 ---
 
