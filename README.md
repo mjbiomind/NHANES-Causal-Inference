@@ -20,20 +20,12 @@ To suppress baseline selection bias and handle confounding variables without exp
 
 ---
 
-## 🔒 Intellectual Property & Repository Governance
-To prevent unauthorized replication, safeguard proprietary data engineering pipelines, and maintain strict academic data security, the comprehensive production-grade scripts, live source code blocks, and full structural dictionaries for this project are **classified**.
-
-### 📄 Document Registry Status:
-- [x] Methodology Abstract & Mathematical Formulation (Visible)
-- [ ] Production Python Pipeline (`causal_ptsd_nhanes.py`) -> **[RESTRICTED]**
-- [ ] Local Environment Architecture (`environment.yml`) -> **[RESTRICTED]**
-- [ ] Detailed Parameter Codebook (`DATA_DICTIONARY.md`) -> **[RESTRICTED]**
-- [ ] Comprehensive Interpretation Summary (`OUTPUT_REPORT.md`) -> **[RESTRICTED]**
-
-### 🔑 Requesting Technical Access
-Full source-code access, verification logs, and reproducible environment wrappers will be provisioned strictly to verified Principal Investigators, academic committees, and clinical data directors. 
-
-To request credentials to audit the live repository assets, please submit a formal professional validation request via **[LinkedIn Direct Message](https://www.linkedin.com/in/mjbiomind/)**.
+### 📄 Open Source - Document Registry Status:
+- [ ] Methodology Abstract & Mathematical Formulation 
+- [ ] Production Python Pipeline (`causal_ptsd_nhanes.py`) 
+- [ ] Local Environment Architecture (`environment.yml`)
+- [ ] Detailed Parameter Codebook (`DATA_DICTIONARY.md`) 
+- [ ] Comprehensive Interpretation Summary (`OUTPUT_REPORT.md`)
 
 ---
 > *"Using data to understand people, using science to reduce suffering, and using knowledge to build a life of lasting impact."*
