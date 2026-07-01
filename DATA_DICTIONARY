@@ -1,6 +1,8 @@
-## DATA_DICTIONARY.md## NHANES Cohort Metadata & Variable Mapping Schema
-Project: Disentangling SDoH & Inflammatory Biomarkers
-Data Privacy Status: Fully De-identified / Synthetic Replication Framework
+# Data Dictionary
+## NHANES Cohort Metadata & Variable Mapping Schema
+
+**Project:** Disentangling SDoH & Inflammatory Biomarkers  
+**Data Privacy Status:** Fully De-identified / Synthetic Replication Framework
 
 | Variable Name | Database Target | Data Type | Measurement Unit / Codification | Clinical / Operational Definition |
 |---|---|---|---|---|
@@ -15,8 +17,4 @@ Data Privacy Status: Fully De-identified / Synthetic Replication Framework
 | IPTW | Statistical Vector | Float | Inverse Weight Scale (≥ 1.00) | Inverse Probability Weight: The calculated structural weight applied to the observation during Weighted Least Squares estimation. |
 
 
-# Data Dictionary
-## NHANES Cohort Metadata & Variable Mapping Schema
 
-**Project:** Disentangling SDoH & Inflammatory Biomarkers  
-**Data Privacy Status:** Fully De-identified / Synthetic Replication Framework

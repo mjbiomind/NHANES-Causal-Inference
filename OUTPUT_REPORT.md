@@ -22,6 +22,9 @@ Following the configuration of the Weighted Least Squares (WLS) marginal structu
 | **Hispanic Cohort ($X$)** | 0.014 | 0.028 | 0.618 | Not Significant |
 | **Interaction Term ($T \times X$)** | 0.298 | 0.042 | < 0.001 | High ($p < 0.001$) |
 
+![NHANES Causal Interaction Plot](nhanes_interaction_plot.png)
+
+
 ### 🧠 Core Scientific Discoveries:
 1. **The Direct Stress Trigger ($\alpha_1 = 0.408$):** Exposure to severe environmental stress shifts log-transformed C-Reactive Protein (CRP) upward by 0.408 units in the reference population, indicating a clear, unconfounded biological translation from environment to physical inflammation.
 2. **The Intersectional Multiplier ($\alpha_3 = 0.298$):** The interaction vector is highly significant ($p < 0.001$). This confirms that the biological cost of environmental stress is significantly higher for the Hispanic cohort, increasing their log-CRP by an additional 0.298 units. 
