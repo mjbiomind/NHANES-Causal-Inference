@@ -1,0 +1,27 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# 1. Assuming 'df' is your clean NHANES dataset containing your model variables
+# Let's generate a clean Interaction Plot using Seaborn
+plt.figure(figsize=(9, 5))
+
+# lmplot automatically plots data points and calculates a regression line
+sns.lmplot(
+    x="environmental_stress_score", 
+    y="inflammation_biomarker_level", 
+    hue="is_hispanic_cohort", 
+    data=df, 
+    markers=["o", "x"], 
+    palette="Set2",
+    aspect=1.5
+)
+
+# Professional styling to match your academic thesis
+plt.title("Differential Effect of Stress Vectors on Biological Inflammation", fontsize=14, pad=15)
+plt.xlabel("Cumulative SDoH Environmental Stress Index", fontsize=12)
+plt.ylabel("Inflammatory Biomarker Concentrate", fontsize=12)
+
+# 2. Save the figure directly into your NHANES project folder
+plt.savefig("nhanes_interaction_plot.png", dpi=300, bbox_inches='tight')
+print("Successfully generated nhanes_interaction_plot.png!")
